@@ -1,0 +1,177 @@
+body {
+   font-family: 'Lemonada', cursive;
+   font-family: 'El Messiri', sans-serif;
+
+}
+.table {
+    display: table;
+    widows: 100%;
+    height: 100%;
+}
+.table-cell {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.title {
+    margin-bottom: 20px;
+}
+.title h1 {
+    color: #34495e;
+    font-weight: bold;
+}
+.title .border {
+    width: 100px;
+    height: 3px;
+    background: #34495e;
+    margin: 10px auto 0px auto;
+}
+
+
+
+/* Navbar */
+.navbar {
+    background: #34495e;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.46);
+    margin: 0px;
+}
+.navbar-default {
+    background: #34495e;
+}
+.navbar-brand {
+    padding: 20px 15px;
+    font-size: 30px;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Lemonada', cursive;
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #16a085;
+}
+
+
+/* Hero Section */
+.bump {
+    background: url('../img/bump.jpg') fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.welcome {
+    height: 500px;
+}
+.welcome h1 {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.welcome a {
+    background: #34495e;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.s_item {
+    border-right: 2px solid #ddd;
+    padding: 15px;
+}
+.s_item:first-child {
+    border-left: 1px solid #ddd;
+
+}
+.s_item .s_icon {
+    color: #999;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.s_item h4 {
+    color: #999;
+}
+.s_item p {
+    color: #999;
+    line-height: 10px;
+}
+
+/* About Section */
+.about {
+    background: url('../img/bump.jpg') fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.inner_about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 0px;
+     background-position: center center;
+}
+.inner_about p {
+    color: #34495e;
+    line-height: 30px;
+    text-align: right;
+}
+
+
+/* Work Section */
+.work {
+    margin: 50px 0px;
+    text-align: center;
+}
+.w_item {
+    margin-bottom: 30px;
+}
+
+/* Contact Us Section */
+.contact input, textarea {
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+.footer {
+    background: #fff;
+    padding: 40px 0px;
+}
+.footer p {
+    color: #666;
+    font-size: 16px;
+}
+.footer a {
+    color: #34495e;
+    margin-right: 10px;
+}
+.footer a:hover {
+    color: #34495e;
+}
+.footer a i {
+    font-size: 20px;
+}
+
